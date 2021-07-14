@@ -103,6 +103,7 @@ hr{
 /* -----goalkeeper,coach, manager ranking----- */
 .more-ranks{
     margin-top: 10px;
+    margin-left: -30px;
 }
 /* -----second section's left side headline align----- */
 .more-ranks>h2{
@@ -126,7 +127,7 @@ hr{
 .vl {
     border-left: 6px solid rgb(116, 124, 116);
     height: 500px;
-    margin: 20px;
+    margin-right: 40px;
   }
 /* -----full section display type fixing----- */
 #section-display{
@@ -212,6 +213,7 @@ hr{
       .more-ranks>h2{
         margin-left: 30px;
     }
+    
 
     /* -----all footer info----- */
     footer img{
