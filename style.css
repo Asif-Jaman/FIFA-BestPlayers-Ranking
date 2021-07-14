@@ -13,6 +13,7 @@ body{
     background-color: #2D25A0;
 }
 
+
 /* -----banner display type----- */
 #banner-details{
     display: flex;
@@ -74,7 +75,7 @@ body{
 /* -----player image size----- */
 .player img{
     width: 300px;
-    height: 276px;
+    height: 376px;
 }
 /* -----text size for all p tags----- */
  p{
@@ -86,6 +87,7 @@ body{
     border-image-slice:1;
     padding: 15px;
     margin: 150px;
+
 }
 /* -----section divider----- */
 hr{
@@ -154,14 +156,198 @@ hr{
 
  /* -----media query for response----- */
 
- /* -----all  360px and less width devices----- */
 
+ /* -----all  360px and less width devices----- */
+ @media only screen and (max-width:360px){
+
+    /* -----all banner info----- */
+     #banner-details{
+         display: block;
+     }
+     #banner-text{
+        font-weight: bold;
+        width: 50%;
+        margin-left: 100px;
+        font-size: 20px;
+        color:whitesmoke;
+        transition:color 1s ease;
+       
+    }
+   
+    #banner{
+        width: 360px;
+     }
+     #banner-details img{
+      margin-top: 30px;
+      height: 300px;
+      
+     }
+     #banner:hover #banner-text{
+        color:yellow;   
+    }
+     /* -----all players info----- */
+     #players{
+         grid-template-columns: repeat(1,1fr);
+         margin-left: 0%;
+     }
+     /* -----section two- more ranks and news- info----- */
+     #section-display{
+         display: block;
+     }
+     .more-items img{
+        width: 100px;
+        height: 80px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-right: 10px;
+    }
+    /* -----cancel side border---- */
+    .vl {
+        border-left: 6px solid rgb(116, 124, 116);
+        height: 0px;
+        margin: 0px;
+      }
+      /* -----rank and news title----- */
+      .more-ranks>h2{
+        margin-left: 30px;
+    }
+
+    /* -----all footer info----- */
+    footer img{
+        width: 184px;
+        height: 50;
+        margin-top: 70px;
+        margin-left: 30px;
+    }
+
+    .icon{
+        font-size: 10px;
+        margin: 10px;
+      }
+     /* -----icon centering----- */
+      #all-icon{
+          margin-left: 60px;
+      }
+      /* -----footer p centering----- */
+      footer p{
+         margin-left: 60px;
+      }
+     
+ }
 
  /* -----all 414px and less width devices----- */
  
+ @media only screen and (max-width:414px){
+
+    /* -----all banner info----- */
+     #banner-details{
+         display: block;
+     }
+     #banner-text{
+        font-weight: bold;
+        width: 50%;
+        margin-left: 100px;
+        font-size: 20px;
+        color:whitesmoke;
+        transition:color 1s ease;
+       
+    }
+   
+    #banner{
+        width: 414px;
+     }
+     #banner-details img{
+      margin-top: 30px;
+      height: 300px;
+      
+     }
+     #banner:hover #banner-text{
+        color:yellow;   
+    }
+     /* -----all players info----- */
+     #players{
+         grid-template-columns: repeat(1,1fr);
+         margin-left: 0%;
+     }
+     /* -----section two- more ranks and news- info----- */
+     #section-display{
+         display: block;
+     }
+     .more-items img{
+        width: 100px;
+        height: 80px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-right: 10px;
+    }
+    /* -----cancel side border---- */
+    .vl {
+        border-left: 6px solid rgb(116, 124, 116);
+        height: 0px;
+        margin: 0px;
+      }
+      /* -----rank and news title----- */
+      .more-ranks>h2{
+        margin-left: 30px;
+    }
+
+    /* -----all footer info----- */
+    footer img{
+        width: 184px;
+        height: 50;
+        margin-top: 70px;
+        margin-left: 30px;
+    }
+
+    .icon{
+        font-size: 10px;
+        margin: 10px;
+      }
+     /* -----icon centering----- */
+      #all-icon{
+          margin-left: 60px;
+      }
+      /* -----footer p centering----- */
+      footer p{
+         margin-left: 60px;
+      }
+     
+ }
 
  /* -----all 1024px and less width devices----- */
 
+ @media only screen and (max-width:1024px){
+
+    /* -----all banner info----- */
+    
+     #banner-text{
+        font-weight: bold;
+        width: 50%;
+        margin-left: 100px;
+        font-size: 20px;
+        color:whitesmoke;
+        transition:color 1s ease;
+       
+    }
+   
+    #banner{
+        width: 1024px;
+     }
+     #banner-details img{
+      margin-top: 30px;
+      height: 300px;
+      
+     }
+     #banner:hover #banner-text{
+        color:yellow;   
+    }
+     /* -----all players info----- */
+     #players{
+         grid-template-columns: repeat(2,1fr);
+         margin-left: 0%;
+     }
+     
+ }
 
 
 
