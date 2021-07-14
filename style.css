@@ -1,0 +1,168 @@
+/* -----import font-family----- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    
+}
+/* -----banner color and size----- */
+#banner{
+    width: 100%;
+    height: 750px;
+    margin: -30px 0 0 0;
+    background-color: #2D25A0;
+}
+
+/* -----banner display type----- */
+#banner-details{
+    display: flex;
+    place-items: center;
+    
+}
+
+/* ---------------banner text and hover effect,------------------
+ ---------text-color will change  when the cursor take on the banner ----- */
+
+#banner-text{
+    font-weight: bold;
+    width: 50%;
+    margin-left: 156px;
+    font-size: 24px;
+    color:whitesmoke;
+    transition:color 1s ease;
+   
+}
+/* -----button click----- */
+.button{
+    background-color: #E02C6D;
+    text-decoration: none;
+    padding: 7px 17px;
+    color: white;
+    border-radius: 5px;
+    font-size: 12px;
+
+}
+
+/* -----banner image----- */
+#banner-details img{
+    width:80%;
+    height: 500px; 
+    margin-top: 150px;
+    margin-left: 50px;  
+}
+/* -----hover effect----- */
+#banner:hover #banner-text{
+    color:yellow;   
+}
+
+
+/* ----main part design----- */
+
+
+
+/* -----players display type----- */
+#players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 5px;
+    margin-left: 80px;
+    margin-top: 70px;
+    margin-right: 160px;
+    
+}
+
+/* -----player image size----- */
+.player img{
+    width: 300px;
+    height: 276px;
+}
+/* -----text size for all p tags----- */
+ p{
+    font-size: 14px;
+}
+/* ----shadow around the player box----- */
+.player{
+    box-shadow:0px 0px 40px  rgba(0, 0, 0, 0.15);
+    border-image-slice:1;
+    padding: 15px;
+    margin: 150px;
+}
+/* -----section divider----- */
+hr{
+    width: 1400px;
+    height: 2px;
+    background-color: rgb(48, 77, 77);
+    margin-bottom: 40px;
+}
+
+/* -----second section----- */
+
+/* -----goalkeeper,coach, manager ranking----- */
+.more-ranks{
+    margin-top: 10px;
+}
+/* -----second section's left side headline align----- */
+.more-ranks>h2{
+    margin-left: 300px;
+}
+
+/* -----left side image and right side image fixing----- */
+.more-items img{
+    width: 150px;
+    height: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+/* -----left side image and right side image  display type  fixing----- */
+.more-items {
+    display: flex;
+   
+}
+/* -----side divider----- */
+.vl {
+    border-left: 6px solid rgb(116, 124, 116);
+    height: 500px;
+    margin: 20px;
+  }
+/* -----full section display type fixing----- */
+#section-display{
+    display: flex;
+    margin-left: 200px;
+}
+/* -----footer part----- */
+ footer img{
+     width: 484px;
+     height: 110;
+     margin-top: 70px;
+     margin-left: 675px;
+ }
+/* -----icon resizing----- */
+ .icon{
+   font-size: 25px;
+   margin: 10px;
+ }
+/* -----icon centering----- */
+ #all-icon{
+     margin-left: 850px;
+ }
+ /* -----footer p centering----- */
+ footer p{
+    margin-left: 870px;
+ }
+
+
+ /* -----media query for response----- */
+
+ /* -----all  360px and less width devices----- */
+
+
+ /* -----all 414px and less width devices----- */
+ 
+
+ /* -----all 1024px and less width devices----- */
+
+
+
+
+
